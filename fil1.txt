@@ -15,6 +15,9 @@ public class Exm {
 			
 			//6개의 랜덤번호를 저장
 			for()
+			for(int j=0; j<=5; j++){
+				int num_temp = (int) (Math.random()*44+1);
+				lotto_num[j] = num_temp; 
 			} 
 			
 			//저장된 숫자 정렬
